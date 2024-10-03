@@ -1,0 +1,59 @@
+.tm1{
+    color: blue;
+    font-size: 70px;
+    
+    font-family: "Handjet", sans-serif;
+   align-content: center;
+  
+}
+
+.gloria {
+    color: black;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.trg{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(13, 192, 132);
+    
+    
+}
+.fei{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+/* estilos generales */
+section{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.gl{
+    border-radius: 200px;
+    border: 7px solid rgb(75, 109, 21);
+}
+     
+
+h1{
+    font-size: 2.5rem;
+}
+
+/* sección hero*/
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+/* Adaptable (responsivo)*/
+
+@media screen and (max-width: 767px) {
+ .navbar-brand {
+    display: none;
+ }   
+}
